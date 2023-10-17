@@ -1,1 +1,8 @@
-Hello
+git init - initialise
+
+git status - status of repo
+
+git add file file1 file2 - add these files only
+git add . -> adds all files
+
+git commit -m "MSG" - commit all changes.
