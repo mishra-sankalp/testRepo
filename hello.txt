@@ -12,3 +12,10 @@ git log --oneline - just shows message of commit
 git log -p - shows patch of code changed.
 
 git diff - see all changes made to file after commit
+
+Steps to make a remote repo:
+1. Create a repo in GITHUB
+2. Copy its link and link to local repo in GIT CLI  --->   git remote add origin <URL>
+NOTE: origin is the variable that points to URL.
+3. then push the local repo, to github --->  git push origin master
+
