@@ -45,3 +45,7 @@ git merge featureBranch
 
 NOTE:
 When we checkout to another branch, the files commited just in the curr branch wont be visible in other branches.!
+
+Solving the MERGE CONFLICT
+Remove the 3 lines of conflict
+Change as per yourself. and then COMMIT the file.
