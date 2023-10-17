@@ -18,4 +18,28 @@ Steps to make a remote repo:
 2. Copy its link and link to local repo in GIT CLI  --->   git remote add origin <URL>
 NOTE: origin is the variable that points to URL.
 3. then push the local repo, to github --->  git push origin master
+NOTE: now on making any changes to repo, we need to commit and push to remote.
+
+Benefits of branching:
+1. Separates code for different features
+2. Hence helps in avoiding situations where new code might hinder the functioning of older code.
+
+git branch - shows all branches
+git checkout NAME - checks out of current branch and moves control to NAME branch
+git checkout -b dev - creates and checks out to the dev branch.
+
+
+NOTE:
+there are 2 types of commits. SEE!?
+	1. self commit ?!
+	2. merge commit - extra commit
+
+MERGING
+1. First check out to the branch where we need to merge all the code from 1 branch
+git checkout mainBranch
+
+2. Merge
+git merge featureBranch
+
+
 
