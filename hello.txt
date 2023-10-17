@@ -49,3 +49,12 @@ When we checkout to another branch, the files commited just in the curr branch w
 Solving the MERGE CONFLICT
 Remove the 3 lines of conflict
 Change as per yourself. and then COMMIT the file.
+
+To Do later:
+1. git stash
+2. see commands for Removal/change in commits. 
+3. moving HEAD.
+
+GOOD PRACTICES:
+1. Write short and meaningful commit messages.
+2. Use meaningful and standard names for remote, branches etc. (origin, featureBranch, navbarBranch)
