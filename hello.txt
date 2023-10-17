@@ -6,3 +6,9 @@ git add file file1 file2 - add these files only
 git add . -> adds all files
 
 git commit -m "MSG" - commit all changes.
+
+git log - short log of all commits
+git log --oneline - just shows message of commit
+git log -p - shows patch of code changed.
+
+git diff - see all changes made to file after commit
